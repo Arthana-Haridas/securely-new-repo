@@ -3,6 +3,6 @@ rvm: 2.6.3
 jobs:
   include: 
     - stage: "sleep 109"
-      script: echo &Travis_Art
+      script: echo $Travis_Art
 keys:
   - Art
